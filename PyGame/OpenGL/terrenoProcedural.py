@@ -11,20 +11,12 @@ class GDA():
     AMPLITUDE = 4
     SEED = 0
 
-    def __init__(self, seed=0, octaves=0, roughness=0):
+    def __init__(self, seed=0):
 
         if (seed == 0):
             seed = random.randint(0, 100000000)
 
-        if (octaves == 0):
-            octaves = 3;
-
-        if (roughness == 0):
-            roughness = 0.3
-
             self.SEED = seed
-            self.OCTAVES = octaves
-            self.ROUGHNESS = roughness
 
     def GDDT(self, x=int, z=int):
         total = self.GetInterpolateNoise(x / 4, z / 4) * self.AMPLITUDE

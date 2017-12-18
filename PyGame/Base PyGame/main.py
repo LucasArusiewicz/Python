@@ -1,9 +1,11 @@
 import pygame
 
+RESOLUCAO = (800,600)
+FPS = 60
 
 def main():
     pygame.init()
-    gameDisplay = pygame.display.set_mode((800, 600))
+    tela = pygame.display.set_mode(RESOLUCAO)
     pygame.display.set_caption('PyGame')
     clock = pygame.time.Clock()
     crashed = False
@@ -14,10 +16,9 @@ def main():
             if event.type == pygame.QUIT:
                 crashed = True
 
-            print(event)
 
         pygame.display.update()
-        clock.tick(60)
+        clock.tick(FPS)
     pygame.quit()
     quit()
 

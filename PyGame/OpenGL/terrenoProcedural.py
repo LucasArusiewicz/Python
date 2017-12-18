@@ -16,7 +16,7 @@ class GDA():
         if (seed == 0):
             seed = random.randint(0, 100000000)
 
-            self.SEED = seed
+        self.SEED = seed
 
     def GDDT(self, x=int, z=int):
         total = self.GetInterpolateNoise(x / 4, z / 4) * self.AMPLITUDE

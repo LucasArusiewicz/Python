@@ -10,5 +10,6 @@ Projetos em Python
 │	├───cubo.py
 │	└───terrenoProcedural.py
 └───Utilidades
-    └───Cor.py
+    ├───cor.py
+    └───10print.py
 ```

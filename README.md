@@ -18,7 +18,13 @@ Projetos em Python
 ├───Redes Neurais
 │   └───pneuronio.py
 │
-└───Utilidades
-    ├───cor.py
-    └───10print.py
+├───Utilidades
+│   ├───cor.py
+│   └───10print.py
+│    
+└───Web Scraping
+    └───Light Shot
+        ├───BaixaImagem.py
+        ├───Links.py
+        └───Main.py
 ```

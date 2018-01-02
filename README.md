@@ -4,6 +4,9 @@ Projetos em Python
 ├───Algoritmo Genetico
 │   └───cobrinha.py
 │
+├───Arvore
+│   └───ArvoreBinaria.py
+│
 ├───OpenCV
 │   └───CameraIPDroidCam.py
 │

@@ -1,8 +1,8 @@
 # Python
 Projetos em Python
 ```
-├───Algoritmo Genetico
-│   └───cobrinha.py
+├─── ̶A̶l̶g̶o̶r̶i̶t̶m̶o̶ ̶G̶e̶n̶e̶t̶i̶c̶o̶
+│   └───c̶o̶b̶r̶i̶n̶h̶a̶.̶p̶y̶
 │
 ├───Arvore
 │   └───ArvoreBinaria.py
